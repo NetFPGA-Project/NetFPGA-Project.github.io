@@ -55,6 +55,7 @@ button:hover{
 	/*height: 1500px;*/
 	padding: 20px 50px 20px 50px;
 	background: #fbfbfb;
+	overflow: hidden;
 }
 a{
 	text-decoration: none;
@@ -63,8 +64,9 @@ h1, h2{
 	border-bottom: 1px solid #e0e0e0;
 }
 img{
-	border: 3px solid #efefef;
+	border: 2px solid #efefef;
 	max-width: 100%;
+	box-sizing: border-box;
 }
 .brand{
 	border: none;
@@ -103,13 +105,13 @@ table tr,td{
 		padding: 15px;
 	}
 	button{
-		padding: 3px 10px 3px 10px;
+		padding: 5px 10px 5px 10px;
 		font-size: 18px;
 		background: transparent;
 		border-radius: 0;
 	}
 	.container{
-		padding: 20px 30px 20px 30px;
+		padding: 20px 25px 20px 25px;
 	}
 	.toggle{
 		display: block;
