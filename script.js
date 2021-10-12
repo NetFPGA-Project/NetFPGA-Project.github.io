@@ -18,7 +18,9 @@ function embed2(){
 }
 
 var tog = 0;
-document.getElementById('sidebar').style.display="none";
+if(screen.width <= 600){
+	document.getElementById('sidebar').style.display="none";
+}
 function toggle(){
 	tog++;
 	if(tog%2 ==1){
