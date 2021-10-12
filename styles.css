@@ -1,0 +1,118 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	padding: 20px 50px 20px 50px;
+	font-size: 25px;
+	font-family: 'Cabin';
+	background: #fff;
+	box-shadow: 0 3px 5px #00000020;
+	position: relative;
+	z-index: 3;
+}
+.content{
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.sidebar{
+	width: 250px;
+}
+.subcontent{
+	box-sizing: border-box;
+	height: 100vh;
+	position: sticky;
+	top: 0;
+	background: #cfcfcf;
+	padding: 20px 0 20px 40px;
+}
+.subcontent .curr{
+	background: #fbfbfb;
+}
+button{
+	font-family: 'Cabin';
+	text-align: left;
+	width: 100%;
+	border: none;
+	padding: 7px 10px 7px 10px;
+	font-size: 18px;
+	background: transparent;
+	border-radius: 0;
+}
+.subcontent button:after{
+	content: ' ⮞';
+	float: right;
+}
+button:hover{
+	background: #fbfbfb;
+}
+.container{
+	font-family: 'Cabin';
+	box-sizing: border-box;
+	width: 100%;
+	/*height: 1500px;*/
+	padding: 20px 50px 20px 50px;
+	background: #fbfbfb;
+}
+a{
+	text-decoration: none;
+}
+h1, h2{
+	border-bottom: 1px solid #e0e0e0;
+}
+img{
+	border: 3px solid #efefef;
+	max-width: 100%;
+}
+.brand{
+	border: none;
+}
+code{
+	background: #e0e0e0;
+	padding: 1px 2px 1px 2px;
+	border-radius: 3px;
+	max-width: 100%;
+	white-space: pre-wrap;
+}
+table{
+	border: 1px solid #cfcfcf;
+}
+table tr,td{
+	border-top: 1px solid #cfcfcf;
+	border-left: 1px solid #cfcfcf;
+}
+.toggle{
+	display: none;
+	padding: 10px;
+	text-align: center;
+}
+@media (max-width: 600px){
+	.header{
+		text-align: center;
+	}
+	.content{
+		flex-wrap: wrap;
+	}
+	.sidebar, .subcontent{
+		height: max-content;
+		width: 100%;
+	}
+	.subcontent{
+		padding: 15px;
+	}
+	button{
+		padding: 3px 10px 3px 10px;
+		font-size: 18px;
+		background: transparent;
+		border-radius: 0;
+	}
+	.toggle{
+		display: block;
+		text-align: left;
+	}
+	.toggle button{
+		width: max-content;
+		padding: 5px 15px 5px 15px;
+	}
+}
