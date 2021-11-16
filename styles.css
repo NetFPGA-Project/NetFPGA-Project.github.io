@@ -116,7 +116,7 @@ table tr,td{
 		padding: 15px;
 	}
 	.subcontent .curr{
-		box-shadow: -3px 0 0 0px #9999a0;
+		box-shadow: 0px 0 0 0px #9999a0;
 	}
 	button{
 		padding: 5px 10px 5px 10px;
@@ -125,7 +125,7 @@ table tr,td{
 		border-radius: 0;
 	}
 	.subcontent button:hover{
-		box-shadow: -3px 0 0 0px #9999a0;
+		box-shadow: 0px 0 0 0px #9999a0;
 	}
 	.subcontent button:hover:after{
 		transform: translateX(0px);
