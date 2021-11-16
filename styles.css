@@ -33,6 +33,7 @@ body{
 }
 .subcontent .curr{
 	background: #fbfbfb;
+	box-shadow: -4px 0 0 0px #9999a0;
 }
 button{
 	font-family: 'Cabin';
@@ -45,11 +46,16 @@ button{
 	border-radius: 0;
 }
 .subcontent button:after{
+	transition: 0.25s ease-in-out;
 	content: '\203A';
 	float: right;
 }
+.subcontent button:hover:after{
+	transform: translateX(3px);
+}
 button:hover{
 	background: #fbfbfb;
+	box-shadow: -4px 0 0 0px #9999a0;
 }
 .container{
 	font-family: 'Cabin';
@@ -107,11 +113,20 @@ table tr,td{
 	.subcontent{
 		padding: 15px;
 	}
+	.subcontent .curr{
+		box-shadow: -3px 0 0 0px #9999a0;
+	}
 	button{
 		padding: 5px 10px 5px 10px;
 		font-size: 18px;
 		background: transparent;
 		border-radius: 0;
+	}
+	button:hover{
+		box-shadow: -3px 0 0 0px #9999a0;
+	}
+	.subcontent button:hover:after{
+		transform: translateX(0px);
 	}
 	.container{
 		padding: 20px 25px 20px 25px;
