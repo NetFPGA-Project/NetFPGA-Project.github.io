@@ -76,11 +76,11 @@ var content1=`<h3><div align="center"><img class="brand" src="https://www.sarsen
 <br>
 <h1 id="download-xilinx-vivado-20182">Download Xilinx Vivado 2018.2</h1>
 <ul>
-<li>Download the Installer at <a href="https://www.xilinx.com/support/download.html">Xilinx Downloads site</a></li>
+<li>Download the Installer at <a target="_blank" href="https://www.xilinx.com/support/download.html">Xilinx Downloads site</a></li>
 </ul>
 <div align="center"><img src="https://lh3.googleusercontent.com/eo_2nibNQ2wweQDpIZnDLKmB6SCB6FkCBm--4kcj313BdS1_gMYUMzXmXvV7KGUDbowXlQZ2-4TDgTywhjlOlgonH6oKceTKFXXF4vuXjTJMThlrykg6xQhP2Ql4m7HsTHmkrqdBxA=w2400" width="93%"></div>
 <ul>
-<li>Register NetFPGA-SUME Beta Program at <a href="https://netfpga.org/NetFPGA-SUME.html">NetFPGA site</a></li>
+<li>Register NetFPGA-SUME Beta Program at <a target="_blank" href="https://netfpga.org/NetFPGA-SUME.html">NetFPGA site</a></li>
 </ul>
 <div align="center"><img src="https://lh3.googleusercontent.com/0CeQn-Cwgnuyyfy2U7xKeRjme5QyhgMN_E4PabwOdOOwHqcThDMjlq4NIxwM2tbwAuHxVwvsmY-fblk7WTVtdp9HAp7twf8RFFXe-0qJaGk2O9WQnJVgoS2q3maskrxRx3JJhI7WNg=w2400" width="93%"></div>
 <br>
@@ -448,23 +448,23 @@ var content3=`<h3><div align="center"><img class="brand" src="https://www.sarsen
 <h1 id="nfs-ref">NetFPGA-SUME Reference Learning Switch</h1>
 
 <h3 id="reference-wiki">Reference Wiki</h3>
-<p>Go to <a href="https://github.com/NetFPGA/NetFPGA-SUME-public/">NetFPGA-SUME public</a> repo at NetFPGA GitHub Organization.</p>
-<p>Click on <code>Wiki</code> tab and search for <a href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/NetFPGA-SUME-Reference-Learning-Switch">NetFPGA-SUME Reference Learning Switch &#129109;</a>.</p>
+<p>Go to <a target="_blank" href="https://github.com/NetFPGA/NetFPGA-SUME-public/">NetFPGA-SUME public</a> repo at NetFPGA GitHub Organization.</p>
+<p>Click on <code>Wiki</code> tab and search for <a target="_blank" href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/NetFPGA-SUME-Reference-Learning-Switch">NetFPGA-SUME Reference Learning Switch &#129109;</a>.</p>
 <ul>
 <li>NetFPGA-SUME Specific cores<ul>
-<li><a href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Std.-Core:-10G-Ethernet-Interface">nf_10g_interface &#129109;</a></li>
-<li><a href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/RIFFA-DMA-Engine">DMA &#129109;</a></li>
-<li><strong><a href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Std.-Core:-Output-Port-Lookup-(Learning-Switch">switch_output_port_lookup &#129109;</a></strong></li>
-<li><a href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Std.-Core:-Output-Queues">output_queues &#129109;</a></li>
-<li><a href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Std.-Core:-Input-Arbiter">input_arbiter &#129109;</a></li>
+<li><a target="_blank" href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Std.-Core:-10G-Ethernet-Interface">nf_10g_interface &#129109;</a></li>
+<li><a target="_blank" href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/RIFFA-DMA-Engine">DMA &#129109;</a></li>
+<li><strong><a target="_blank" href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Std.-Core:-Output-Port-Lookup-(Learning-Switch)">switch_output_port_lookup &#129109;</a></strong></li>
+<li><a target="_blank" href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Std.-Core:-Output-Queues">output_queues &#129109;</a></li>
+<li><a target="_blank" href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Std.-Core:-Input-Arbiter">input_arbiter &#129109;</a></li>
 </ul>
 </li>
 </ul>
 <p><br></p>
 <h1 id="proj">Contributed Project</h1>
 
-<p>After registering for NetFPGA Beta Program in the <a href="https://github.com/NetFPGA-Project/HLS-NetFPGA-SUME/tree/Week-1#download-xilinx-vivado-20182">first stage</a>, your GitHub account will be invited to join NetFPGA GitHub Organization in a few days.</p>
-<p>When you&#39;re a member the organization, go to the private repo <a href="https://github.com/NetFPGA/NetFPGA-SUME-live">NetFPGA-SUME live</a>.</p>
+<p>After registering for NetFPGA Beta Program in the <a target="_blank" href="https://github.com/NetFPGA-Project/HLS-NetFPGA-SUME/tree/Week-1#download-xilinx-vivado-20182">first stage</a>, your GitHub account will be invited to join NetFPGA GitHub Organization in a few days.</p>
+<p>When you&#39;re a member the organization, go to the private repo <a target="_blank" href="https://github.com/NetFPGA/NetFPGA-SUME-live">NetFPGA-SUME live</a>.</p>
 <ul>
 <li>Click on <code>projects</code> &raquo; <code>reference_switch</code> &raquo; <code>hw</code> to see how the switch is constructed</li>
 <li>Click on <code>lib</code> &raquo; <code>hw</code> &raquo; <code>std</code> &raquo; <code>cores</code> to read about the methods using in the program</li>
@@ -513,8 +513,8 @@ Handshake occurs as described in the steps below (in any channel):
 <h1 id="pragma">Pragma HLS Interface</h1>
 
 <h3 id="descriptions">Descriptions</h3>
-<p>Go to <a href="https://www.xilinx.com/html_docs/xilinx2019_1/sdaccel_doc/hls-pragmas-okr1504034364623.html">HLS Pragmas</a> &raquo; <code>pragma HLS interface</code> for references.</p>
-<p>In C-based design, all input and output operations are performed through formal function arguments. In a register transfer level (RTL) design, these same input and output operations must be performed through a port in the design interface and typically operate using a specific input/output (I/O) protocol. Further descriptions at <a href="https://www.xilinx.com/support/documentation/sw_manuals/xilinx2019_1/ug902-vivado-high-level-synthesis.pdf">Vivado Design Suite User Guide: High-Level Synthesis</a> &raquo; <code>Managing Interfaces</code>.</p>
+<p>Go to <a target="_blank" href="https://www.xilinx.com/html_docs/xilinx2019_1/sdaccel_doc/hls-pragmas-okr1504034364623.html">HLS Pragmas</a> &raquo; <code>pragma HLS interface</code> for references.</p>
+<p>In C-based design, all input and output operations are performed through formal function arguments. In a register transfer level (RTL) design, these same input and output operations must be performed through a port in the design interface and typically operate using a specific input/output (I/O) protocol. Further descriptions at <a target="_blank" href="https://www.xilinx.com/support/documentation/sw_manuals/xilinx2019_1/ug902-vivado-high-level-synthesis.pdf">Vivado Design Suite User Guide: High-Level Synthesis</a> &raquo; <code>Managing Interfaces</code>.</p>
 <br>
 <h3 id="syntax">Syntax</h3>
 <pre><code><span class="hljs-meta">#<span class="hljs-meta-keyword">pragma</span> HLS interface <span class="hljs-meta-string">&lt;mode&gt;</span> port=<span class="hljs-meta-string">&lt;name&gt;</span> bundle=<span class="hljs-meta-string">&lt;string&gt;</span></span>
@@ -582,9 +582,9 @@ var content5=`<h3><div align="center"><img class="brand" src="https://www.sarsen
 <h1 id="10g_eth">10G Ethernet</h1>
 
 <h3 id="description">Description</h3>
-<p>Go to <a href="https://www.xilinx.com/support/documentation/ip_documentation/axi_10g_ethernet/v3_1/pg157-axi-10g-ethernet.pdf">10 Gigabit Ethernet 
+<p>Go to <a target="_blank" href="https://www.xilinx.com/support/documentation/ip_documentation/axi_10g_ethernet/v3_1/pg157-axi-10g-ethernet.pdf">10 Gigabit Ethernet 
 Subsystem v3.1: Product Guide</a> &raquo; <code>Designing with the Subsystem</code> for more info.</p>
-<p><a href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Std.-Core:-10G-Ethernet-Interface">Std. Core: 10G Ethernet Interface</a>.</p>
+<p><a target="_blank" href="https://github.com/NetFPGA/NetFPGA-SUME-public/wiki/Std.-Core:-10G-Ethernet-Interface">Std. Core: 10G Ethernet Interface</a>.</p>
 <h3 id="ethernet-data-format">Ethernet Data Format</h3>
 <p><div align="center"><b>Standard Ethernet frame format</b><br><img src="https://i.ibb.co/6BH8xkR/eth-format.png" width="600px"></div>
 <br>
